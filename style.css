@@ -34,7 +34,7 @@ span {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    gap: 18px
+    gap: 18px;
 }
 
 button {
@@ -44,6 +44,11 @@ button {
     padding: 5px;
     color: #fff;
 }
+
+.opt-wrapper button {
+    cursor: pointer;
+}
+
 
 input[type="color"] {
     -webkit-appearance: none;
